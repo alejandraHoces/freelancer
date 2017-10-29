@@ -1,11 +1,4 @@
-<p>&#169</p> copyright..
-<!--<i class="fa fa-star" aria-hidden="true"></i>--> icono estrella.
-<!--<i class="fa fa-facebook" aria-hidden="true"></i>-->icono facebook
-<!--<i class="fa fa-google-plus" aria-hidden="true"></i>-->googleplus.
-<!--<i class="fa fa-twitter" aria-hidden="true"></i>-->twiter.
-<!--<i class="fa fa-dribbble" aria-hidden="true"></i>-->brible(pelotita)
-<!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->linkedin.(in)
-<!--<i class="fa fa-download" aria-hidden="true"></i>-->dowland(descarga)
+
 
 
 

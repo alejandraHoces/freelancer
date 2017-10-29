@@ -3,32 +3,302 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .text-uppercase {
   text-transform: uppercase;
 }
-
+/*colocando el encabezado en mi pagina tipo de letra,posicion fija ,ancho*/
 header {
-  font-family: 'Montserrat', sans-serif;
   position: fixed;
   background-color: #2c3e50;
   width: 100%;
+  z-index: 1000;
 }
-
+/*colocando logo titulo de el encabezado colocando color de letra ,tamaño y en linea*/
 .logo-freelancer {
   color:white;
-  font-size: 35px;
-  padding-left: 90px;
+  font-weight: 900;
+  font-size: 2em;
+  padding-bottom: 10px;
+  padding-left: 140px;
+  display: inline-block;
 }
+/*colocando en linea mis titulo*/
+header ul {
+  margin: 0;
+  display: inline-block;
+  padding-left: 35%;
 
+}
+/*quitando el efecto de lista y situandolo 10% a la izquierda*/
 .redirects {
+  padding-right: 30px;
   list-style: none;
   display: inline-block;
 }
-
+/*colocando color de letra ,grosor y quitando la linea de el link*/
 .redirects a {
+  font-weight: 700;
   color: white;
   text-decoration: none;
+}
+/*colocando efecto hover ,al pasar el mouse por la palabra muestra otro color*/
+.redirects a:hover {
+  color :#009999;
+}
+
+.redirects a:active {
+  background-color: #18bc9c;
+  color: white;
+}
+
+/*seccion principal*/
+
+.startbootstrap {
+
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: #18bc9c;
+}
+
+.images-men {
+  padding-bottom: 20px;
+  max-width: 100%;
+}
+
+.title {
+  color: white;
+  padding-bottom: 60px;
+  display: block;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.profiles {
+  color: white;
+  font-size: 27px;
+  padding-top: 30px;
+}
+/*seccion imagenes*/
+
+#portfolio {
+
+  padding: 100px 0;
+  background-color: white;
+  width: 100%;
+}
+
+.tfolio {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.container figure {
+  padding-top: 10px;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  margin: 0;
+  width: 100%;
+}
+
+.six-images {
   display: inline-block;
+
+}
+
+.six-images img {
+  width: 350px;
+}
+
+
+/*tercera seccion about*/
+#about {
+  width: 100%;
+  background-color:#18bc9c;
+  padding-top: 30px;
+}
+
+.tabout {
+  padding-bottom: 30px;
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.contains-text {
+  width: 800px;
+  position:relative;
+  left: 300px;
+  padding-bottom: 130px;
+}
+
+.paragraphs {
+  color:white;
+  font-size: 19px;
+  width: 350px;
+  line-height: 28px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.download {
+  width: 200px;
+  position: relative;
+  left: 280px;
+  top:40px;
+  border:2px solid white;
+  border-radius: 6px;
+}
+
+.downl-icon i {
+  padding: 15px;
+  font-size: 20px;
+  color:white;
+}
+
+
+#contact {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.tcontact {
+  text-align: center;
+  font-size: 40px;
+  font-weight:700;
+}
+
+.forms {
+  width: 700px;
+  position: relative;
+  left:320px;
+  top: 35px;
+}
+
+.pure-form {
+  padding-bottom: 140px;
+}
+
+.f-input input {
+  width:80%;
+  font-size: 25px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  border:none;
+  outline: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.send {
+  color: white;
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+  font-size: 21px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 0;
+  padding: 12px 15px;
+}
+/*seccion pie de pagina-redessociales*/
+.networks-contact {
+  padding-top: 150px;
+  color: white;
+  width: 100%;
+  background-color: #2c3e50;
+}
+
+.contactme {
+  position: relative;
+  left: 50px;
+  bottom: 110px;
+  width: 90%;
+
+}
+
+.column {
+  padding-left: 60px;
+  display: inline-block;
+  width: 310px;
+}
+
+.column h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.column p {
+  text-align: center;
+  font-size: 21px;
+  line-height: 27px;
+}
+
+.location {
+  position: relative;
+  bottom: 28px;
+}
+
+.iconsnetwork {
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+  bottom: 30px;
+}
+
+.iconsnetwork ul {
+  margin-top: 0;
+  /*margin-bottom: 1rem;*/
+}
+
+.iconnet {
+  display: inline-block;
+
+}
+
+.iconnet:not(:last-child) {
+  margin-right: 5px;
+}
+
+.r-social {
+  font-size: 20px;
+  line-height: 45px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+.s-outline {
+  margin-top: 15px;
+  color: white;
+}
+.iconsnetwork a:hover {
+  color: #18bc9c;
+  background: white;
+}
+
+.paragraph {
+  color: #18bc9c;
+  text-decoration: none;
+}
+
+.tbaround {
+  position: relative;
+  bottom: 33px;
+}
+
+.copyright {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 30px;
 }
