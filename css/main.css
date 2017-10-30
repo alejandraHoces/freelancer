@@ -76,6 +76,25 @@ header ul {
   font-size: 80px;
   font-weight: 700;
 }
+/*colocando icono estrella*/
+.startbootstrap .star {
+	max-width: 247px;
+	border: 3px solid #FFF;
+	margin: 25px auto 30px;
+	padding: 0;
+}
+
+.startbootstrap .fa-star {
+	color: #FFF;
+	background-color: #18bc9c;
+	font-size: 35px;
+	position: relative;
+	bottom: 54px;
+	display: inline-block;
+	padding: 5px;
+  left: 394px;
+}
+
 /*colocando color y tamaño de letra a el texto de perfiles*/
 .profiles {
   color: white;
@@ -96,6 +115,25 @@ header ul {
   text-align: center;
   font-size: 50px;
   font-weight: 700;
+}
+
+/*colocando icono estrella*/
+#portfolio .star {
+	max-width: 247px;
+	border: 3px solid #2c3e50;
+	margin: 25px auto 30px;
+	padding: 0;
+}
+
+#portfolio .fa-star {
+	color: #2c3e50;
+	background-color: #fff;
+	font-size: 35px;
+	position: relative;
+	bottom: 54px;
+	display: inline-block;
+	padding: 5px;
+  left: 653px;
 }
 /*situando las imagenes con un margen de 0*/
 .container figure {
@@ -130,6 +168,26 @@ header ul {
   font-weight: 900;
   text-align: center;
 }
+
+/*colocando icono estrella*/
+#about .star {
+	max-width: 247px;
+	border: 3px solid #fff;
+	margin: 25px auto 30px;
+	padding: 0;
+}
+
+#about .fa-star {
+	color: #fff;
+	background-color: #18bc9c;
+	font-size: 35px;
+	position: relative;
+	bottom: 54px;
+	display: inline-block;
+	padding: 5px;
+  left: 653px;
+}
+
 /*contenedor de texto de guia*/
 .contains-text {
   width: 800px;
@@ -172,6 +230,25 @@ header ul {
   text-align: center;
   font-size: 40px;
   font-weight:700;
+}
+
+/*colocando icono estrella*/
+#contact .star {
+	max-width: 247px;
+	border: 3px solid #2c3e50;
+	margin: 25px auto 30px;
+	padding: 0;
+}
+
+#contact .fa-star {
+	color: #2c3e50;
+	background-color: #fff;
+	font-size: 35px;
+	position: relative;
+	bottom: 54px;
+	display: inline-block;
+	padding: 5px;
+  left: 653px;
 }
 /*tamaño de formulario */
 .forms {
