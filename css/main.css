@@ -92,7 +92,7 @@ header ul {
 	bottom: 54px;
 	display: inline-block;
 	padding: 5px;
-  left: 394px;
+  left:390px;
 }
 
 /*colocando color y tamaño de letra a el texto de perfiles*/
@@ -105,11 +105,13 @@ header ul {
 /*SECCION IMAGENES*/
 
 #portfolio {
+  width: 100%;
 
+  display: block;
   padding: 100px 0;
   background-color: white;
-  width: 100%;
-}
+  }
+
 /*colonado el texto al centro ,colocando tamaño de letra*/
 .tfolio {
   text-align: center;
@@ -133,26 +135,30 @@ header ul {
 	bottom: 54px;
 	display: inline-block;
 	padding: 5px;
-  left: 653px;
+  left: 610px;
 }
+
 /*situando las imagenes con un margen de 0*/
-.container figure {
-  padding-top: 10px;
-  padding-left: 70px;
-  padding-bottom: 20px;
+.container {
   margin: 0;
-  width: 100%;
+  position: relative;
+  left: 30px;
+  display: inline-table;
 }
-/*alinenado las imagenes*/
+
 .six-images {
-  display: inline-block;
-
+  display: inline-table;
 }
-/*tamaño de imagen*/
+
+.six-images figure {
+  margin: 0;
+}
+
 .six-images img {
-  width: 350px;
+  width: 370px;
+  padding-left: 30px;
+  padding-top: 39px;
 }
-
 
 /*TERCERA SECCION*/
 #about {
@@ -185,14 +191,16 @@ header ul {
 	bottom: 54px;
 	display: inline-block;
 	padding: 5px;
-  left: 653px;
+  left: 610px;
 }
 
 /*contenedor de texto de guia*/
 .contains-text {
-  width: 800px;
-  position:relative;
-  left: 300px;
+  width: 100%;
+  text-align: justify;
+  /*position:relative;
+  left: 250px;*/
+  text-align: center;
   padding-bottom: 130px;
 }
 /*color de letra del parrafo ,tamaño de letra ,ancho de letra*/
@@ -202,16 +210,18 @@ header ul {
   width: 350px;
   line-height: 28px;
   padding-left: 30px;
+  text-align: justify;
   display: inline-block;
 }
 /*seccion de descarga ,colocando bordes redondeados ,color de letra y posicion */
 .download {
   width: 200px;
   position: relative;
-  left: 280px;
+  left: 530px;
   top:40px;
   border:2px solid white;
   border-radius: 6px;
+
 }
 /*seccion icono ,color de icono */
 .downl-icon i {
@@ -248,7 +258,7 @@ header ul {
 	bottom: 54px;
 	display: inline-block;
 	padding: 5px;
-  left: 653px;
+  left: 610px;
 }
 /*tamaño de formulario */
 .forms {
@@ -298,7 +308,7 @@ header ul {
 }
 
 .column {
-  padding-left: 70px;
+  padding-left: 50px;
   display: inline-block;
   width: 310px;
 }
