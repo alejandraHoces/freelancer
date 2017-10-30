@@ -374,6 +374,10 @@ header ul {
   text-decoration: none;
 }
 
+.paragraph:hover {
+  text-decoration: underline;
+}
+
 .tbaround {
   position: relative;
   bottom: 33px;
