@@ -230,6 +230,13 @@ header ul {
   color:white;
 }
 
+.downl-icon:hover i {
+  color: #18bc9c;
+}
+
+.download:hover {
+  background-color: white;
+}
 /*CUARTA SECCION-zona de contacto*/
 #contact {
   padding: 100px 0;
