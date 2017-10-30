@@ -48,28 +48,27 @@ header ul {
 .redirects a:hover {
   color :#009999;
 }
-
+/*colocando efecto -activacion con se hace click*/
 .redirects a:active {
   background-color: #18bc9c;
   color: white;
 }
 
-/*seccion principal*/
+/*SECCION PRINCIPAL-colocando color de fondo ,texto centrado*/
 
 .startbootstrap {
-
   text-align: center;
   padding-top: 200px;
   padding-bottom: 100px;
   width: 100%;
   background-color: #18bc9c;
 }
-
+/*situando imagen y colocando su ancho*/
 .images-men {
   padding-bottom: 20px;
   max-width: 100%;
 }
-
+/*colocando color de titulo y tamaño*/
 .title {
   color: white;
   padding-bottom: 60px;
@@ -77,13 +76,14 @@ header ul {
   font-size: 80px;
   font-weight: 700;
 }
-
+/*colocando color y tamaño de letra a el texto de perfiles*/
 .profiles {
   color: white;
   font-size: 27px;
   padding-top: 30px;
 }
-/*seccion imagenes*/
+
+/*SECCION IMAGENES*/
 
 #portfolio {
 
@@ -91,13 +91,13 @@ header ul {
   background-color: white;
   width: 100%;
 }
-
+/*colonado el texto al centro ,colocando tamaño de letra*/
 .tfolio {
   text-align: center;
   font-size: 50px;
   font-weight: 700;
 }
-
+/*situando las imagenes con un margen de 0*/
 .container figure {
   padding-top: 10px;
   padding-left: 70px;
@@ -105,24 +105,24 @@ header ul {
   margin: 0;
   width: 100%;
 }
-
+/*alinenado las imagenes*/
 .six-images {
   display: inline-block;
 
 }
-
+/*tamaño de imagen*/
 .six-images img {
   width: 350px;
 }
 
 
-/*tercera seccion about*/
+/*TERCERA SECCION*/
 #about {
   width: 100%;
   background-color:#18bc9c;
   padding-top: 30px;
 }
-
+/*centrando el titulo,tamaño de letra y color de letra*/
 .tabout {
   padding-bottom: 30px;
   color: white;
@@ -130,14 +130,14 @@ header ul {
   font-weight: 900;
   text-align: center;
 }
-
+/*contenedor de texto de guia*/
 .contains-text {
   width: 800px;
   position:relative;
   left: 300px;
   padding-bottom: 130px;
 }
-
+/*color de letra del parrafo ,tamaño de letra ,ancho de letra*/
 .paragraphs {
   color:white;
   font-size: 19px;
@@ -146,7 +146,7 @@ header ul {
   padding-left: 30px;
   display: inline-block;
 }
-
+/*seccion de descarga ,colocando bordes redondeados ,color de letra y posicion */
 .download {
   width: 200px;
   position: relative;
@@ -155,25 +155,25 @@ header ul {
   border:2px solid white;
   border-radius: 6px;
 }
-
+/*seccion icono ,color de icono */
 .downl-icon i {
   padding: 15px;
   font-size: 20px;
   color:white;
 }
 
-
+/*CUARTA SECCION-zona de contacto*/
 #contact {
   padding: 100px 0;
   background-color: white;
 }
-
+/*centrando texto,tamaño de letra (pista para usuario)*/
 .tcontact {
   text-align: center;
   font-size: 40px;
   font-weight:700;
 }
-
+/*tamaño de formulario */
 .forms {
   width: 700px;
   position: relative;
@@ -184,7 +184,7 @@ header ul {
 .pure-form {
   padding-bottom: 140px;
 }
-
+/*tamaño de caja de ingreso de datos,estilo sin bordes*/
 .f-input input {
   width:80%;
   font-size: 25px;
@@ -194,7 +194,7 @@ header ul {
   outline: 0;
   border-bottom: 1px solid #eee;
 }
-
+/*boton de envio de datos,color de boton ,color de letra y tamaño */
 .send {
   color: white;
   background-color: #18bc9c;
@@ -205,50 +205,50 @@ header ul {
   border: 0;
   padding: 12px 15px;
 }
-/*seccion pie de pagina-redessociales*/
+/*SECCION PIE DE PAGINA-redes sociales*/
 .networks-contact {
   padding-top: 150px;
   color: white;
   width: 100%;
   background-color: #2c3e50;
 }
-
+/*posicionando el contenido*/
 .contactme {
   position: relative;
   left: 50px;
   bottom: 110px;
   width: 90%;
-
 }
 
 .column {
-  padding-left: 60px;
+  padding-left: 70px;
   display: inline-block;
   width: 310px;
 }
-
+/*centrando el texto,tamaño de letra y grosor */
 .column h3 {
   text-align: center;
   margin: 0;
   font-size: 29px;
   font-weight: 700;
 }
-
+/*centrando el texto,tamaño de letra y grosor */
 .column p {
   text-align: center;
   font-size: 21px;
   line-height: 27px;
 }
-
+/*posicionando primera columna*/
 .location {
   position: relative;
   bottom: 28px;
 }
-
+/*posicionando segunda columna*/
 .iconsnetwork {
   padding-left: 0;
   list-style: none;
   position: relative;
+  left: 15px;
   bottom: 30px;
 }
 
@@ -259,13 +259,8 @@ header ul {
 
 .iconnet {
   display: inline-block;
-
 }
-
-.iconnet:not(:last-child) {
-  margin-right: 5px;
-}
-
+/*colocando un borde redondeado a cada icono de red social*/
 .r-social {
   font-size: 20px;
   line-height: 45px;
@@ -276,16 +271,17 @@ header ul {
   border: 2px solid #fff;
   border-radius: 100%;
 }
-
+/*colocando color de letra*/
 .s-outline {
   margin-top: 15px;
   color: white;
 }
+/*colocando un efecto a cada icono*/
 .iconsnetwork a:hover {
   color: #18bc9c;
   background: white;
 }
-
+/*color de parrafo ,redirige*/
 .paragraph {
   color: #18bc9c;
   text-decoration: none;
@@ -295,7 +291,7 @@ header ul {
   position: relative;
   bottom: 33px;
 }
-
+/*situando pie de pagina ,color de letra */
 .copyright {
   text-align: center;
   width: 100%;
