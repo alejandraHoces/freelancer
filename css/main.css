@@ -52,6 +52,8 @@ header ul {
 .redirects a:active {
   background-color: #18bc9c;
   color: white;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 /*SECCION PRINCIPAL-colocando color de fondo ,texto centrado*/
@@ -135,14 +137,14 @@ header ul {
 	bottom: 54px;
 	display: inline-block;
 	padding: 5px;
-  left: 610px;
+  left:655px;
 }
 
 /*situando las imagenes con un margen de 0*/
 .container {
   margin: 0;
   position: relative;
-  left: 30px;
+  left: 60px;
   display: inline-table;
 }
 
@@ -177,7 +179,7 @@ header ul {
 
 /*colocando icono estrella*/
 #about .star {
-	max-width: 247px;
+	max-width: 230px;
 	border: 3px solid #fff;
 	margin: 25px auto 30px;
 	padding: 0;
@@ -191,7 +193,7 @@ header ul {
 	bottom: 54px;
 	display: inline-block;
 	padding: 5px;
-  left: 610px;
+  left: 655px;
 }
 
 /*contenedor de texto de guia*/
@@ -217,7 +219,7 @@ header ul {
 .download {
   width: 200px;
   position: relative;
-  left: 530px;
+  left: 575px;
   top:40px;
   border:2px solid white;
   border-radius: 6px;
@@ -265,7 +267,7 @@ header ul {
 	bottom: 54px;
 	display: inline-block;
 	padding: 5px;
-  left: 610px;
+  left: 660px;
 }
 /*tamaño de formulario */
 .forms {
@@ -315,7 +317,7 @@ header ul {
 }
 
 .column {
-  padding-left: 50px;
+  padding-left: 60px;
   display: inline-block;
   width: 310px;
 }
